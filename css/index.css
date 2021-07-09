@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/* Everything before this is the CSS browser reset*/
+
 * {
     box-sizing: border-box;
 }
@@ -55,6 +57,37 @@ html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
 }
+
+nav, .header-img-container, .top-content, .middle-content .boxes, .middle-content .boxes .box, .bottom-content, footer nav{
+    width: 800px;
+    margin: 0 auto;
+    display:flex;
+}
+
+/*Everything below is for the header and nav bar (for the most part)*/
+
+nav{
+    justify-content: space-between;
+    align-items: flex-end;/*Wanted all of the nav bar buttons to line up on the same axis as the logo*/
+    padding: 1.3rem 0% 2.75rem 0%;
+}
+
+
+a{
+    text-decoration: none;
+    margin-right:2.5rem;
+    font-size: 0.8rem;
+    font-family: 'Rubik', sans-serif;
+    color:black;
+}
+
+.header-img-container{
+    justify-content:center;
+    margin-bottom: 1rem;
+}
+
+/*everything above is for the header: this includes the logo and nav bar*/
+
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
@@ -72,7 +105,6 @@ p {
 }
 
 .top-content {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
@@ -96,7 +128,6 @@ p {
 }
 
 .middle-content .boxes {
-    display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
@@ -107,13 +138,11 @@ p {
     background: black;
     margin: 20px 2.5%;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .bottom-content {
-    display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
@@ -133,7 +162,6 @@ footer {
 
 footer nav {
     width: 60%;
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
