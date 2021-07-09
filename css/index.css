@@ -58,7 +58,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-header nav, .header-img-container, .top-content, .middle-content .boxes, .middle-content .boxes .box, .bottom-content, footer nav{
+header nav, footer, .about-categories, .header-img-container, .top-content, .middle-content .boxes, .middle-content .boxes .box, .bottom-content, footer nav{
     width: 800px;
     margin: 0 auto;
     display:flex;
@@ -188,8 +188,28 @@ p {
     padding-right: 0;
 }
 
+/* About section specific CSS Style Classes*/
+.about-intro{
+    border: 1px dashed tan;
+    width: 800px;
+    margin: 0 auto;
+}
+.about-categories{
+    border: 1px dashed tan;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image-and-text-container{
+    border: 1px dashed tan;
+    width: 48%;
+}
+.outro{
+    width: 800px;
+    margin: 0 auto;
+}
+
 footer {
-    width: 100%;
     background: black;
 }
 
