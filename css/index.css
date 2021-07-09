@@ -47,7 +47,7 @@ table {
 	border-spacing: 0;
 }
 
-/* Everything before this is the CSS browser reset*/
+/* Everything above this is the CSS browser reset*/
 
 * {
     box-sizing: border-box;
@@ -58,7 +58,7 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
-nav, .header-img-container, .top-content, .middle-content .boxes, .middle-content .boxes .box, .bottom-content, footer nav{
+header nav, .header-img-container, .top-content, .middle-content .boxes, .middle-content .boxes .box, .bottom-content, footer nav{
     width: 800px;
     margin: 0 auto;
     display:flex;
@@ -66,7 +66,7 @@ nav, .header-img-container, .top-content, .middle-content .boxes, .middle-conten
 
 /*Everything below is for the header and nav bar (for the most part)*/
 
-nav{
+header nav{
     justify-content: space-between;
     align-items: flex-end;/*Wanted all of the nav bar buttons to line up on the same axis as the logo*/
     padding: 1.3rem 0% 2.75rem 0%;
@@ -180,7 +180,8 @@ p {
 }
 
 .bottom-content .text-container {
-    padding-right: 4%;
+    padding-right: 8%;
+    margin: 5px;
 }
 
 .bottom-content .text-container:last-child {
@@ -193,9 +194,7 @@ footer {
 }
 
 footer nav {
-    width: 60%;
     justify-content: flex-start;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
 }
