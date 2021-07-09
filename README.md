@@ -34,13 +34,35 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+I would probably stick with the house analogy that we were taught in the precourse work. Meaning, I would explain that really we can probably build all of our html elements out of div tags or span tags but we don't really know much about these divs other than the names and attributes that we give them. In terms of the house analogy, we are obviously going to purchase a lot of wood for the construction of the home. However, some of the wood is going ot be used for different purposes and will need to be cut to different lengths or different widths, etc. So, we can have a bunch of wood but we actually have a bunch of wood for different purposes that we need to consider. Well, semantic html tags are just tags that are way more descriptive about the role that the element has. We can probably create everything with div tags or span tags(just call wood "wood") but we don't need to do this when we use semantic html tags since they have a specific built in purpose. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+As our teacher described it: block elements are bullies and inline elements are ninjas. Meaning display: block will require a line break before and after it, hence forcing everything around it to move to new lines. Whereas display:inline only takes up as much space as it truly needs. It will not cause a line break before and after. It sneaks in like a ninja and nothing is changed around it other than what it is changing about itself. 
 
 3. What are the 4 areas of the box model?
 
+Starting from the inside: Content, Padding, Border, Margin.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+This will center items on the "opposite" axis. What I mean by opposite is what we have defined as our Y-axis. Normally, and as we can see this command right now, this would center items on the vertical axis. But it is possible that we have oriented things differently such that the main axis is the y-axis and hence the oppsoite axis is the x-axis. For example, if did
+
+flex-direction: column
+
+the main axis is the y-axis
+
+then, if I said 
+
+align-items: center
+
+this would center the items horizontally or the opposite axis as the main axis. 
+
 5. Explain why git is valuable to a team of developers.
+
+Well, it allows you to do so many things. But the thing that I have found valuable so far is saving newer and newer versions of my code so that if I mess up something terribly, I don't need to start over from scratch. 
+
+I could also see it being beneficial for much larger projects than what we are doing. For example, if we are building something large, and our team has broken up the entire process into small jobs, then we can divy up all of the small jobs to the team and implement them as we finsih them. I look forward to working on bigger projects to experience first hand more aspects of the power of git. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
